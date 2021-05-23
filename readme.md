@@ -1,0 +1,5 @@
+- 在`YouTube`下载的视频可以下载`description` 参见`youtubedl`下载
+- 有些description里带了视频的章节信息  `.description`文件
+- 因此可以解析`.description`文件 制作成 potplayer的书签方便观看
+- 有网页版点击打开 `index.html`
+- 有`nodejs`版 `gen_potplayer_bookmark.js`
