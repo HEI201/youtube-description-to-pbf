@@ -1,7 +1,8 @@
 const fs = require('fs');
 
 // 使用前替换处理路径
-let vidDir = "//192.168.123.15/26956693/video/youtube"
+// let vidDir = "//192.168.123.15/26956693/video/youtube"
+let vidDir = "//192.168.1.15/26956693/我的视频/教程/youtube"
 
 let readDir = fs.readdirSync(vidDir);
 let defileArr = readDir.filter(filename => {
